@@ -46,7 +46,7 @@ def search(self, nums, target):
 
 If you want to discuss DSA, algorithms, or projects, feel free to connect:
 
-* **LeetCode**: [My Profile]([https://leetcode.com/](https://leetcode.com/u/pXhYyQZYwV/))
+* **LeetCode**: [My Profile](https://leetcode.com/u/pXhYyQZYwV/)
 * **GitHub**: [Sparsh Jindal](https://github.com/BakaLuffy04)
 
 
