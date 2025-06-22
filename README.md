@@ -1,19 +1,22 @@
-💻 LeetCode Solutions by Sparsh Jindal
+
+# 💻 LeetCode Solutions by Sparsh Jindal
 
 This repository contains my personal solutions to problems from [LeetCode](https://leetcode.com/), written as part of my data structures and algorithms learning journey. Each solution is written clearly with a focus on readability and efficiency.
 
+---
 
-🧠 What's Inside?
+## 🧠 What's Inside?
 
 - 📝 **Descriptive filenames**: Each file starts with the problem number and name for easy reference.
 - 🚀 Regular updates as I continue to practice and improve.
 
+---
 
-🧾 Code Snippet Format
+## 🧾 Code Snippet Format
 
 Each solution follows this consistent structure:
 
-python
+```python
 # Problem: 704. Binary Search
 # Link: https://leetcode.com/problems/binary-search/description/
 # Difficulty: Easy
@@ -32,13 +35,14 @@ def search(self, nums, target):
             else:
                 low = mid+1
         return -1
-
+```
 
 * **Header**: Problem title, link, difficulty.
 * **Clean function** with variable names and logic clearly outlined.
 
+---
 
-🔗 Connect
+## 🔗 Connect
 
 If you want to discuss DSA, algorithms, or projects, feel free to connect:
 
