@@ -1,3 +1,6 @@
+# Problem: 704. Binary Search
+# Link: https://leetcode.com/problems/binary-search/description/
+# Difficulty: Easy
 class Solution(object):
     def search(self, nums, target):
         low = 0
