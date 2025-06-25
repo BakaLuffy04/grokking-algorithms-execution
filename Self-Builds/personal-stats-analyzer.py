@@ -10,8 +10,10 @@ import matplotlib.pyplot as plt
 bw= input ("enter bodyweight(in kg) for 10 days seperated by space")
 sleep= input("enter sleep (in hrs) for 10 days seperated by space")
 
-bwlist = list(map(int, bw.split()))
-sllist = list(map(int, sleep.split()))
+bwlist = list(map(float, bw.split()))
+bwlist = np.array(bwlist)
+sllist = list(map(float, sleep.split()))
+sllist = np.array(sllist)
 
 bwmean= np.mean(bwlist)
 slmean= np.mean(sllist)
@@ -32,13 +34,13 @@ for i, (s, w) in enumerate(zip(sllist, bwlist)):
         qual.append(i+1)
 
 print("Mean bodyweight was at", bwmean, "kgs")
-print("Maximum bodyweight was", bwmax, "kgs")
-print("Minimum bodyweight was", bwmin, "kgs")
+print("Maximum bodyweight was on day", np.argmax(bwlist)+1, "at", bwmax, "kgs")
+print("Minimum bodyweight was on day", np.argmin(bwlist)+1, "at", bwmin, "kgs")
 print("Standard deviation bodyweight is", bwstd, "kgs")
 
 print("Mean sleep was at", slmean, "hrs")
-print("Maximum sleep was", slmax, "hrs")
-print("Minimum sleep was", slmin, "hrs")
+print("Maximum sleep was on day", np.argmax(sllist)+1, "at", slmax, "hrs")
+print("Minimum sleep was on day", np.argmin(sllist)+1, "at", slmin, "hrs")
 print("Standard deviation sleep is", slstd, "hrs")
 
 print("quality day(s) were", qual)
